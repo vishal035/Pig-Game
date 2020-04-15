@@ -2,6 +2,23 @@
 *** GENERAL
 **********************************************/
 
+.version-info {
+    display: inline-block;
+    margin-top: 51%;
+    margin-left: 95%;
+    /* margin-bottom: 10px; */
+    color: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+}
+
 .final-score {
     position: absolute;
     left: 50%;
@@ -41,7 +58,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-image: url(./images/white-hills.jpg);
     background-size: cover;
     background-position: center;
     font-family: Lato;
