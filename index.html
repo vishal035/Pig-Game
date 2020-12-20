@@ -1,54 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta name="author" content="Vishal Kumar">
+  <head>
+    <meta name="author" content="Vishal Kumar" />
     <!-- <img src="https://img.icons8.com/cute-clipart/64/000000/dice.png"/> -->
-    <meta property="og:image" content="https://img.icons8.com/color/48/000000/venom-head.png">
-    <meta name="twitter:title" content="Vishal Kumar">
-    <meta name="keywords" content="Pig Game, pig game, vishal kumar web developer, web developer,web designer,work offline,javascript">
-    <meta name="description" content="This is Simple Pig Game v 1.0 in Futher it will have some cool amazing updates so stay tunned by giving the star in from github to this repository.">
-    <meta charset="UTF-8">
-    <link rel="icon" href="https://img.icons8.com/ios/64/000000/dice.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <meta
+      property="og:image"
+      content="https://img.icons8.com/color/48/000000/venom-head.png"
+    />
+    <meta name="twitter:title" content="Vishal Kumar" />
+    <meta
+      name="keywords"
+      content="Pig Game, pig game, vishal kumar web developer, web developer,web designer,work offline,javascript"
+    />
+    <meta
+      name="description"
+      content="This is Simple Pig Game v 1.0 in Futher it will have some cool amazing updates so stay tunned by giving the star in from github to this repository."
+    />
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="https://img.icons8.com/ios/64/000000/dice.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap" rel="stylesheet"> -->
-    <link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
-    <link type="text/css" rel="stylesheet" media="screen and (max-width: 1100px)" href="styleForLowerRes.css">
-    <link type="text/css" rel="stylesheet" media="screen and (min-device-width: 1100px)" href="style.css">
+    <link
+      href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      media="screen and (max-width: 1100px)"
+      href="styleForLowerRes.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      media="screen and (min-device-width: 1100px)"
+      href="style.css"
+    />
 
     <title>Pig Game</title>
-</head>
+  </head>
 
-<body>
-    <div class="wrapper clearfix">
-        <div class="player-0-panel active">
-            <div class="player-name" id="name-0">Player 1</div>
-            <div class="player-score" id="score-0">43</div>
-            <div class="player-current-box">
-                <div class="player-current-label">Current</div>
-                <div class="player-current-score" id="current-0">11</div>
-            </div>
+  <body>
+    <div class="wrapper clearfix opacity4">
+      <div class="bg-color player-0-panel active">
+        <div class="player-name" id="name-0">Player 1</div>
+        <div class="player-score" id="score-0">43</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-0">11</div>
         </div>
+      </div>
 
-        <div class="player-1-panel">
-            <div class="player-name" id="name-1">Player 2</div>
-            <div class="player-score" id="score-1">72</div>
-            <div class="player-current-box">
-                <div class="player-current-label">Current</div>
-                <div class="player-current-score" id="current-1">0</div>
-            </div>
+      <div class="bg-color player-1-panel">
+        <div class="player-name" id="name-1">Player 2</div>
+        <div class="player-score" id="score-1">72</div>
+        <div class="player-current-box">
+          <div class="player-current-label">Current</div>
+          <div class="player-current-score" id="current-1">0</div>
         </div>
+      </div>
 
-        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
-        <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
-        <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
-        <input type="text" placeholder="Final Score" class="final-score">
+      <button class="btn-new">
+        <i class="ion-ios-plus-outline"></i>New game
+      </button>
+      <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
+      <button class="btn-hold">
+        <i class="ion-ios-download-outline"></i>Hold
+      </button>
+      <input type="text" placeholder="Final Score" class="final-score" />
 
-        <img src="dice-5.png" alt="Dice" class="dice" id="dice-1">
-        <img src="dice-5.png" alt="Dice" class="dice" id="dice-2">
+      <img src="dice-5.png" alt="Dice" class="dice" id="dice-1" />
+      <img src="dice-5.png" alt="Dice" class="dice" id="dice-2" />
     </div>
     <div class="version-info">V 1.4</div>
     <script src="challenges.js"></script>
-</body>
-
+  </body>
 </html>
