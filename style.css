@@ -92,7 +92,7 @@ body {
 }
 
 .bg-color {
-  background-color: rgb(34, 11, 11) !important;
+  background-color: rgb(59, 4, 4) !important;
 }
 
 .player-0-panel,
@@ -228,6 +228,6 @@ i {
 }
 
 .winner .player-name {
-  font-weight: 300;
-  color: #eb4d4d;
+  font-weight: 700;
+  color: #ffffff;
 }
