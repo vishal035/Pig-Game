@@ -28,7 +28,8 @@
   transform: translateX(-50%);
   top: 520px;
   color: rgb(255, 255, 255);
-  background-color: #eb4d4d;
+  outline: none;
+  background-color: #ff0000;
   font-size: 18px;
   font-family: 'Lato';
   text-align: center;
@@ -66,7 +67,7 @@ input::placeholder {
 }
 
 body {
-  background-image: url('images/rog.jpg');
+  background-image: url('images/red.jpg');
   background-size: cover;
   background-position: center;
   font-family: Lato;
@@ -82,7 +83,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: #fff; */
+  background-color: rgb(102, 102, 102);
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
@@ -92,7 +93,7 @@ body {
 }
 
 .bg-color {
-  background-color: rgb(59, 4, 4) !important;
+  background-color: #000000 !important;
 }
 
 .player-0-panel,
@@ -122,7 +123,7 @@ body {
   text-align: center;
   font-size: 80px;
   font-weight: 100;
-  color: #eb4d4d;
+  color: #ffffff;
   margin-bottom: 130px;
 }
 
