@@ -1,3 +1,5 @@
+# Server is up [here](https://pig-game-v2.herokuapp.com/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
