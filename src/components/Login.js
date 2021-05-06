@@ -13,7 +13,6 @@ const Login = (props) => {
     hasAcc,
     setHasAcc,
     emailerror,
-    passerror,
   } = props;
   return (
     <div className="Login">

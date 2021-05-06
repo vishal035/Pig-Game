@@ -95,7 +95,6 @@ const Main = () => {
           hasAcc={hasAcc}
           setHasAcc={setHasAcc}
           emailerror={emailerror}
-          passerror={password}
         />
       )}
     </div>
